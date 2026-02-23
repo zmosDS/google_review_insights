@@ -34,10 +34,6 @@ Transformer-based model fine-tuned on weak supervision labels. Scaling notebook 
 Aspects: `product_quality`, `service`, `wait_time`, `price_value`, `cleanliness`, `atmosphere`, `general`
 Sentiments: `positive`, `negative`
 
-## Notes
-- TF-IDF trained locally (64GB RAM), RoBERTa trained on UCSD's DataHub GPU
-- Manual labeling validation set excluded from training via `review_id` filter
-
 ## Data 
 [Google Local Data (2021) — UC San Diego McAuley Lab](https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/)
 
