@@ -4,7 +4,8 @@ Compares traditional NLP (TF-IDF) and transformer-based (RoBERTa) approaches for
 
 ## Models
 
-### TF-IDF + Logistic Regression (`05_model_tfidf.ipynb`)
+### TF-IDF + Logistic Regression 
+(`05_model_tfidf.ipynb`) <br>
 Classical NLP baseline trained on the full 22M review dataset. Uses keyword-based aspect detection and star rating weak supervision for labels.
 
 **Best Result:** 2x negative penalty + negation handling
@@ -14,7 +15,8 @@ Classical NLP baseline trained on the full 22M review dataset. Uses keyword-base
 | Macro F1 | 0.778 |
 | Test Accuracy | 0.794 |
 
-### RoBERTa Fine-Tuning (`06a_model_roberta_scaling.ipynb`, `06b_model_roberta_tuning.ipynb`)
+### RoBERTa Fine-Tuning 
+(`06a_model_roberta_scaling.ipynb`, `06b_model_roberta_tuning.ipynb`) <br>
 Transformer-based model fine-tuned on weak supervision labels. Scaling notebook explores 10K–250K training samples. Tuning notebook applies class weights at 100K — the sweet spot of performance and training time.
 
 **Best Result:** 100K sample (baseline, no class weights)
@@ -31,9 +33,6 @@ Transformer-based model fine-tuned on weak supervision labels. Scaling notebook 
 
 Aspects: `product_quality`, `service`, `wait_time`, `price_value`, `cleanliness`, `atmosphere`, `general`
 Sentiments: `positive`, `negative`
-
-## Data
-Large data files are not tracked in this repo. See `03_feature_engineering.ipynb` to regenerate datasets from the cleaned source CSV.
 
 ## Notes
 - TF-IDF trained locally (64GB RAM), RoBERTa trained on UCSD's DataHub GPU
