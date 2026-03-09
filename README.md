@@ -102,8 +102,7 @@ google_review_insights/
 
 **Google Local Data (2021) — UC San Diego McAuley Lab**
 
-Raw data (~25GB) is not stored due to storage constraints. Processed files ready for modeling are available on UCSD DataHub at:
-`/teams/z12/google_review_insights/data/`
+Raw data (~25GB) is not stored due to storage constraints. Processed files ready for modeling are available on UCSD DataHub.
 
 To download the raw data directly:
 [Google Local Data (2021)](https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/)
