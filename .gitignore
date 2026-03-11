@@ -17,3 +17,6 @@ venv/
 # OS
 .DS_Store
 **/.DS_Store
+
+# Models
+*.safetensors
