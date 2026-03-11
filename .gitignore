@@ -2,7 +2,6 @@
 data/
 !data/.gitkeep
 *.csv
-*.json
 
 # Python
 __pycache__/
