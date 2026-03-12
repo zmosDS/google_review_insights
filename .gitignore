@@ -19,3 +19,4 @@ venv/
 
 # Models
 *.safetensors
+models/tfidf_vectorizer.pkl
