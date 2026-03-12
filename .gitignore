@@ -1,7 +1,7 @@
 # Data files
 data/
+!data/.gitkeep
 *.csv
-*.json
 
 # Python
 __pycache__/
@@ -16,3 +16,7 @@ venv/
 # OS
 .DS_Store
 **/.DS_Store
+
+# Models
+*.safetensors
+models/tfidf_vectorizer.pkl
