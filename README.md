@@ -1,6 +1,6 @@
 # Aspect-Based Sentiment Analysis of Google Maps Reviews
 
-[Paper](docs/paper.pdf)
+[Paper](https://zmosds.github.io/google_review_insights/docs/paper.pdf)
 
 Compares traditional NLP (TF-IDF), transformer-based (RoBERTa), and generative LLM (GPT-4.1-mini) approaches for extracting aspect-sentiment pairs from large-scale customer reviews. Labels are generated via weak supervision using star ratings, then validated against a manually labeled holdout set of 2,508 reviews.
 
