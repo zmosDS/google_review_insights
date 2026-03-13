@@ -97,7 +97,7 @@ google_review_insights/
 │   ├── 02_eda.ipynb                     # Exploratory data analysis
 │   ├── 03_feature_engineering.ipynb     # Feature extraction and engineering
 │   ├── 04_absa_training_set.ipynb       # Manual labeling widget and annotation
-│   ├── 05a_model_tfidf.ipynb            # TF-IDF + LogReg training (full 22M rows)
+│   ├── 05a_model_tfidf.ipynb            # TF-IDF + LogReg class weighting experiments (full 22M rows)
 │   ├── 05b_model_tfidf_eval.ipynb       # TF-IDF evaluation
 │   ├── 06a_model_roberta.ipynb          # RoBERTa scaling experiments (10K–250K)
 │   ├── 06b_model_roberta_eval.ipynb     # RoBERTa evaluation
@@ -108,7 +108,6 @@ google_review_insights/
 │   ├── tfidf_logreg_final.pkl           # Best TF-IDF LogReg model (3x penalty)
 │   └── roberta_final/                   # Fine-tuned RoBERTa model (HuggingFace format)
 ├── .gitignore
-├── requirements.txt
 └── README.md
 ```
 
